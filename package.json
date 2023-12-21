@@ -1,6 +1,6 @@
 {
   "name": "gcs-cache-action",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Cache your workload to a Google Cloud Storage bucket",
   "scripts": {
     "build": "tsc",

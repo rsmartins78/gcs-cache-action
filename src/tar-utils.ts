@@ -55,7 +55,7 @@ export async function extractTar(
   const compressionArgs =
     compressionMethod === CompressionMethod.GZIP
       ? ['-z']
-      : ['--use-compress-program', 'zstd -d --long=30'];
+      : ['--use-compress-program', 'zstd -d -T0 --long=30'];
 
   await exec.exec('tar', [
     '-x',
